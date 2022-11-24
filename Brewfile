@@ -22,9 +22,10 @@ brew "terminal-notifier"
 brew "wifi-password"
 brew "speedtest"
 brew "bat"
-brew "trash-it"
 brew "youtube-dl"
 brew "watchman" # Watching files for Jest
+brew "ffmpeg"
+brew "imagemagick"
 
 # ------------------------------------------------------------------------------
 # Taps
@@ -36,32 +37,26 @@ tap "homebrew/cask-fonts"
 # ------------------------------------------------------------------------------
 
 # Fonts
-cask "font-fira-code"
-cask "font-fira-code-nerd-font"
+cask "font-cascadia-code"
+cask "font-caskaydia-cove-nerd-font"
 
 # Utils
-cask "ukrainian-typographic-keyboard"
 cask "gpg-suite"
-cask "openvpn-connect"
 
 # Media
-cask "transmission"
 cask "handbrake"
 cask "vlc"
-cask "obs"
 
 # Development
 cask "fig"
 cask "multipass"
 cask "iterm2"
 cask "visual-studio-code"
-cask "github"
 
 # Desktop applications
-cask "telegram"
+cask "signal"
 cask "google-chrome"
 cask "firefox"
-cask "brave-browser"
 cask "slack"
 cask "steam"
 cask "spotify"
@@ -78,10 +73,7 @@ cask "webpquicklook" # https://github.com/dchest/webp-quicklook
 # ------------------------------------------------------------------------------
 # App Store applications
 # ------------------------------------------------------------------------------
-mas "Home Assistant", id: 1099568401
 mas "Bitwarden", id: 1352778147
-mas "Spark", id: 1176895641
 mas "Unsplash Wallpapers", id: 12848638472
-mas "NordVPN", id: 905953485
 mas "The Unarchiver",  id: 425424353
 mas "Pandan", id: 1569600264

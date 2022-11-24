@@ -33,19 +33,12 @@ _extend_path() {
 _extend_path "$HOME/.local/bin"
 _extend_path "$DOTFILES/bin"
 _extend_path "$HOME/.npm-global/bin"
-_extend_path "$HOME/.rvm/bin"
 _extend_path "$HOME/.yarn/bin"
 _extend_path "$HOME/.config/yarn/global/node_modules/.bin"
-_extend_path "$HOME/.bun/bin"
 
 # Extend $NODE_PATH
 if [ -d ~/.npm-global ]; then
   export NODE_PATH="$NODE_PATH:$HOME/.npm-global/lib/node_modules"
-fi
-
-# bun completions
-if [ -s "/Users/denysd/.bun/_bun" ]; then
-  source "/Users/denysd/.bun/_bun"
 fi
 
 # Default pager
