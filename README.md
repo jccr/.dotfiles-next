@@ -7,7 +7,7 @@
 There are tons of useful things in here:
 
 - The usefulness of [“Oh My ZSH!”](http://ohmyz.sh/) is already built–in.
-- [🚀⭐️ Spaceships](https://github.com/spaceship-prompt/spaceship-prompt) as a prompt.
+- [🚀⭐️ Starship](https://github.com/starship/starship) as a prompt.
 - 🐟 [Fish](https://fishshell.com/)-like autosuggestions.
 - Syntax highlighting of commands while they are typed.
 - Automatically closing and deleting of quotes and brackets when you type them.

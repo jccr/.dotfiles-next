@@ -100,8 +100,11 @@ plugins=(
   docker
 )
 
-# Autoload node version when changing cwd
-NVM_AUTOLOAD=1
+# Silence ssh-agent
+zstyle :omz:plugins:ssh-agent quiet yes
+
+# nvm lazy startup
+zstyle ':omz:plugins:nvm' lazy yes
 
 # ------------------------------------------------------------------------------
 # Dependencies
@@ -132,6 +135,9 @@ if [[ -f "$HOME/.zshlocal" ]]; then
 fi
 
 # ------------------------------------------------------------------------------
+
+# Starship init block.
+eval "$(starship init zsh)"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"

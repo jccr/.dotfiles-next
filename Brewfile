@@ -7,8 +7,9 @@
 brew "git"
 brew "zsh"
 brew "zsh-completions"
-brew "node"
 brew "sheldon"
+brew "starship"
+brew "node"
 brew "coreutils"
 brew "nvm"
 brew "tree"
@@ -20,7 +21,6 @@ brew "mas"
 brew "gh"
 brew "terminal-notifier"
 brew "wifi-password"
-brew "speedtest"
 brew "bat"
 brew "youtube-dl"
 brew "watchman" # Watching files for Jest
@@ -74,6 +74,6 @@ cask "webpquicklook" # https://github.com/dchest/webp-quicklook
 # App Store applications
 # ------------------------------------------------------------------------------
 mas "Bitwarden", id: 1352778147
-mas "Unsplash Wallpapers", id: 12848638472
+mas "Unsplash Wallpapers", id: 1284863847
 mas "The Unarchiver",  id: 425424353
 mas "Pandan", id: 1569600264

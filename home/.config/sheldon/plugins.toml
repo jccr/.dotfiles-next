@@ -17,14 +17,6 @@ shell = "zsh"
 [plugins.oh-my-zsh]
 github = "ohmyzsh/ohmyzsh"
 
-[plugins.spaceship-loader]
-local = "~/.dotfiles/prompt"
-use = ["spaceship.zsh"]
-
-[plugins.spaceship]
-github = "spaceship-prompt/spaceship-prompt"
-apply = ["spaceship"]
-
 [plugins.zsh-defer]
 github = "romkatv/zsh-defer"
 
@@ -65,6 +57,4 @@ defer = '''
     zsh-defer source "{{ file }}"
   {% endfor %}
 '''
-spaceship = '''
-  spaceship-loader "{{ dir }}"
-'''
+
